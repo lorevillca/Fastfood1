@@ -1,0 +1,374 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+#peagefastfood #headerfastfood.fixed-header {
+    background-color: #FFFFFF;    
+}
+
+#headerfastfood.fixed-header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+transition: height .3s;
+background-color: rgba(205, 157, 157, 0.9);
+}
+
+#site-logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#site-logo img {
+    width: 130px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+#site-logo{
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.link-header{
+    margin: 0px 8px;
+}
+ul li.link-header a {
+    padding-bottom: 8px;
+    color: rgb(231, 98, 21);
+}
+#header{
+    height: 80px;
+}
+
+.footer-basic{
+    padding: 40px o;
+    background-color: coral;
+    color: #4b4c4d;
+}
+.footer-basic .social {
+    text-align: center;
+}
+.footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin: 0 8px;
+    color: #FFFFFF;
+    opacity: 0,80;
+}
+.footer-basic .social > a:hover {
+    opacity: 0,5;
+}
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.copyright{
+    color: white;
+}
+/* Portada */
+.portada{
+    background-image: url(../img/porta1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    padding: 0px 60px;
+    display: table;
+    width: 100%;
+    background-position: left;
+}
+.header__texto{
+    text-align: center;
+    color: rgb(227, 201, 168);
+    height: 80%;
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+h2.no-margin{
+    font-size: 80px;
+}
+.border-title{
+    border-bottom: 4px solid #FFFFFF;
+    width: 30%;
+}
+.description-title{
+    font-size: 18px;
+}
+
+/* Nuestras ofertas */
+.bg-gray{
+    background-color: #a58686;
+}
+.seccion-ofertas{
+    height: 350px;
+    padding: 15px 80px;
+    display: flex;
+    place-content: space-around;
+}
+.ofertas-ind{
+    height: 300px;
+    background-color: #a38888;
+    max-width: 20%;
+    border-radius: 20px;
+}
+.img-producto{
+    max-height: 150px;
+    width: -webkit-fill-acailable;
+    padding-top: 25px;
+}
+.txt-base-carousel-section--discount{
+    font-size: 11px;
+    color: #c49f9f;
+    background-color: cadetblue;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+.ml-1{
+    margin-left: 4px;
+}
+.float-right{
+    display: flex;
+    float: right;
+}
+.mr-2{
+    margin-top: 8px;
+}
+.mt-5{
+    margin-top: 20px;
+}
+.boton-small{
+    display: inline-block;
+    color: #b49494;
+    text-align: center;
+    padding: 4px 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+}
+.boton-small:hover{
+    cursor: pointer;
+}
+.txt-base-carousel-section-price{
+    font-size: 16px;
+    text-align: left;
+    color: #ce5555;
+    font-weight: 700;
+}
+.txt-base-carousel-section-price label{
+    font-size: 12px !important;
+}
+.txt-base-carousel-section-price--dscto{
+    color: rgb(128, 45, 79);
+}
+.boton--primario{
+    background-color: cadetblue;
+}
+.title-producto{
+    font-size: 16px;
+}
+
+/* categorias */
+.img-categoria{
+    width: 200px;
+    height: 200px;
+    position: center center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.categorias-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    gap: 60px 80px;
+    justify-content: space-between;
+}
+.cateria-ind{
+    width: 100%;
+    border-radius: 16px;
+}
+.categoria-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+}
+
+/* Contacto */
+h3.centrar-texto{
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.contacto-bg{
+    background-image: url(../img/portadaaaa.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    background-color: #ffffff;
+    margin: 0% auto 0 auto;
+    width: 95%;
+    padding: 50px;
+}
+.campo{
+    display: flex;
+    margin-bottom: 20px;
+}
+.label{
+    flex: 0 0 90px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.campo__field{
+    flex: 1;
+    border: 1px solid #f3f3f3;
+    padding: 6px 8px;
+}
+.campo__field--textarea{
+    height: 200px;
+}
+.boton{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border: none;
+}
+    
+.boton:hover{
+    cursor: pointer;
+}
+
+
+/* Ofertas del dia */
+.bg-gray{
+    background-color: rgb(229, 160, 50);
+}
+.seccion-ofertas{
+    height: 350px;
+    padding: 15px 80px;
+    display: flex;
+    place-content: space-around;
+}
+.ofertas-ind{
+    height: 300px;
+    background-color: rgb(248, 243, 236);
+    max-width: 20%;
+    border-radius: 20px;
+}
+.img-producto{
+    max-height: 150px;
+    width: -webkit-fill-acailable;
+    padding-top: 25px;
+}
+.txt.base-carousel-section--discount{
+    font-size: 11px;
+    color: rgb(56, 146, 146);
+    background-color: rgb(39, 28, 6);
+    border-radius: 6px;
+    padding: 0 10px;
+}
+.ml-1{
+    margin-left: 4px;
+}
+.float-right{
+    display: flex;
+    float: right;
+}
+.mr-2{
+    margin-right: 8px;
+}
+.mt-5{
+    margin-top: 20px;
+}
+.boton-small{
+    display: inline-block;
+    color: #c48888;
+    text-align: center;
+    padding: 4px 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700%;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Utilidades */
+.no-margin{
+    margin: 0px;
+}
+h2{
+    font-size: 4rem;
+}
+.text-start {
+    text-align: start;
+}
+.d-flex{
+    display: flex;
+}
+.centrar-texto{
+    text-align: center;
+}
+.contenedor{
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
